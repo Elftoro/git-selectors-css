@@ -53,6 +53,7 @@ p.hello {
 
 #special {
     border: 2px solid rgb(8, 119, 194)
+
 }
 
 
@@ -114,8 +115,16 @@ label {
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 
+#special:nth-of-type(1) {
+    font-size: 100px;
+    color: green;
+}
 
 /*Make the <h1> element's color change to blue when hovered over */
+h1:hover {
+    color: blue;
+    
+}
 
 
 /*Make the <a> element's that have been visited gray */
