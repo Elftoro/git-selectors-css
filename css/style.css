@@ -39,7 +39,7 @@ li {
 
 /*Make all inputs have a 3px red border*/
 
-input.checkbox {
+* li {
     border: 3px red;
 }
 
@@ -57,6 +57,10 @@ p.hello {
 
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
+
+div.p {
+    font-size: 25px;
+}
 
 
 /*Make only inputs with type 'text' have a gray background*/
